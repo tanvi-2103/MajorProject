@@ -1,0 +1,48 @@
+body{
+  
+}
+.sidebar{
+  /*  */
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  background-color: #233240;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  
+}
+
+#side a{
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: inline;
+  transition: 0.3s;
+}
+
+
+
+.home:hover {
+  background-color: #555;
+}
+/* .sidebar .active{
+  background-color: #555;
+} */
+
+.home, .link{
+  background-color: rgb(16, 30, 39);
+  border-radius: 10px;
+  margin: 5px;
+  
+  
+}
+.home{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  height: 70px;
+}

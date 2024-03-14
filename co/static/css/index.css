@@ -1,0 +1,70 @@
+.head{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.card{
+
+}
+hr{
+    height: 1px;
+}
+
+/* .content {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    margin-left: 250px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    background-image: url(images/tanvi.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    
+  } */
+
+  .content {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-left: 250px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    background-image: url(images/tanvi.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .content {
+        margin-left: 0; /* Adjust margin for smaller screens */
+        padding: 10px;
+        background-size: cover; 
+        overflow: hidden;
+    background-position: center center;
+    background-attachment: fixed;
+    height: auto;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+  
+  .c{
+    display: inline;
+  }
+  

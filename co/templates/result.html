@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center; /* Horizontally center content */
+            align-items: center; /* Vertically center content */
+            height: 100vh; /* Full height of viewport */
+            margin: 0; /* Remove default margin */
+            background-image: url("{{ url_for('static', filename='images/tanvi.jpg') }}");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            color: white; /* Text color */
+        }
+        .result {
+            background-color: rgba(16, 30, 39, 0.8); /* Semi-transparent background color */
+            padding: 20px; /* Add some padding */
+            text-align: center; /* Center text */
+            justify-content: center; /* Horizontally center content */
+            align-items: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        table th, table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div class="result">
+        <h1>Result</h1>
+        <h3>FACULTY COURSE ATTAINMENT REPORT (FCAR)</h3>
+        {{ result | safe }}
+    </div>
+
+</body>
+</html>
